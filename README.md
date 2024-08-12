@@ -23,15 +23,15 @@ This project contains a Flask API that is containerized using Docker and deploye
       ```
     - Apply Kubernetes configurations:
       ```bash
-      kubectl apply -f kubernetes-deployment.yaml
-      kubectl apply -f kubernetes-service.yaml
+      kubectl apply -f deployment.yaml
+      kubectl apply -f service.yaml
       ```
 
 ## Configuration Files
 
 - **Dockerfile**: Containerizes the Flask API application.
-- **kubernetes-deployment.yaml**: Defines the deployment of the Flask application.
-- **kubernetes-service.yaml**: Defines the service to expose the Flask application.
+- **deployment.yaml**: Defines the deployment of the Flask application.
+- **service.yaml**: Defines the service to expose the Flask application.
 
 ## Health Checks
 
