@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-flask-app
-        image: yourusername/my-flask-app:latest
+        image: furkangungor/my-flask-app:latest
         ports:
         - containerPort: 5000
         livenessProbe:
